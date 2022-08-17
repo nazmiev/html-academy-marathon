@@ -1,0 +1,303 @@
+body {
+  font-family: Montserrat;
+  color: #533738;
+  background-color: #efe6e4;
+}
+
+.width1036{
+    width: 1036px;
+}
+
+.width1200{
+    width: 1200px;
+}
+
+.wrapper {
+  width: 1400px;
+}
+
+.block1 {
+  background: url("/images/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png")
+    no-repeat;
+  height: 715px;
+}
+
+.header {
+  display: flex;
+  padding-top: 32px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  padding-left: 65px;
+}
+
+nav a {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  line-height: 26px;
+}
+
+a:visited {
+  color: #533738;
+}
+
+.pomozhem {
+  padding-left: 185px;
+  padding-top: 47px;
+}
+
+.pomozhem p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.pomozhem p {
+  font-size: 18px;
+}
+
+.btn-zayavka {
+  background-color: #cc8b86;
+  width: 310px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.block2 {
+  height: 640px;
+}
+
+h2 {
+  margin: 0px;
+  padding-top: 65px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.onas {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.onas p {
+  margin: 0px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.block3 {
+  background-color: #8d7370;
+  height: 273px;
+}
+
+.fakti {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 85px;
+}
+
+.fakti .hi {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.block4 {
+  height: 1200px;
+}
+
+.container-block4 {
+  margin: auto;
+}
+
+.container-block4 h2 {
+  text-align: left;
+}
+
+.plitka {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.plitka-item {
+  position: relative;
+  height: 451px;
+  width: 488px;
+}
+
+.plitka-item2 {
+  position: relative;
+  height: 451px;
+  width: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #644845cc;
+}
+
+.plitka-item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  padding-bottom: 5px;
+}
+
+.strelka {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.block5 {
+  background-color: #e2c4ba;
+  height: 1000px;
+}
+
+.komanda {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 85px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #533738;
+}
+
+.shagi {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #533738;
+}
+
+.otzivi {
+  height: 660px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 100px;
+  padding-top: 85px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #533738;
+}
+
+.block7 {
+  background-color: #8d7370;
+  height: 624px;
+  color: white;
+}
+
+.zayavka {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+footer {
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.txt-algn-lft {
+    text-align: left;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #8d7370;
+    padding-top: 50px;
+    width: 400px;
+}
+
+input::placeholder {
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.t18{
+    font-size: 18px;
+}
